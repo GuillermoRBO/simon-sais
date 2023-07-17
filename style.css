@@ -1,0 +1,173 @@
+body{
+    
+    background-color: black;
+    font-family: 'Monoton', cursive;
+      
+}
+
+.config{
+    
+margin-left: 25rem;
+margin-right: 25rem;
+    display:flex;
+    justify-content: space-between;
+}
+p{
+    color: rgb(121, 121, 212);
+    text-align: center;
+    padding-bottom: 4rem;
+    font-size: 2rem;
+
+}
+
+.disappear{
+    color: transparent;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 90;
+ padding: 0px;
+margin-top: 1rem;
+margin-bottom: 0px;
+}
+
+
+.spacing{letter-spacing: 10px;}
+
+.S{color: red;}
+
+.I{color: blue}
+
+.M{color: yellow;}
+
+.O{color: green;}
+
+.N{ color: blue;}
+
+.A{ color: green;}
+
+.D{color: yellow;}
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+}
+.gameContainer{
+    display: grid;
+    border: 10px solid red;
+    display: grid;
+    border-radius: 50%;
+    grid-template-columns:100px 100px ;
+    grid-template-rows: 100px 100px ;
+    gap: 10px;
+padding: 10px
+}
+
+.box1{
+    grid-column: 1 /span 1;
+    grid-row: 1 /span 1;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 0 100px 0px;
+    background-color: yellow;
+    transform: rotate(180deg);
+ 
+}
+
+.box2{
+
+    grid-column: 2 /span 1;
+    grid-row: 1 /span 1;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 0 100px 0px;
+    background-color:red;
+    transform: rotate(270deg);
+    
+  
+    
+}
+
+.box3{
+    grid-column: 1 /span 1;
+    grid-row: 2 /span 1;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 0 100px 0px;
+    background-color:green;
+    transform: rotate(90deg);
+}
+
+.box4{
+    grid-column: 2 /span 1;
+    grid-row: 2 /span 1;
+    width: 100px;
+    height: 100px;
+    border-radius: 0 0 100px 0px;
+    background-color:blue;
+
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+
+  
+button.yellow{
+    color: rgb(32, 53, 187);
+}
+
+
+.start{
+    font-family: 'Monoton', cursive; ;
+    font-size: 2rem;
+    background-color: red;
+    border-radius: 20px;
+   width: 10rem;
+   height: 4rem;
+   margin-top: 1.5rem;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+  @media (min-width: 319px) and (max-width: 700px) {
+    body{
+        background-color: aquamarine;
+    }
+    p{
+        font-size: 1rem;
+     }
+    
+     h1{
+        font-size: 2.5rem;
+     }
+
+     .startSmall{
+        font-size: 0.8rem;
+        height: 1.5rem;
+        width: 4rem;
+        margin-top: 1rem;
+     }
+
+     .config{
+
+        margin-left: 20px;
+        margin-right: 20px;
+       
+     }
+
+
+
+  }
